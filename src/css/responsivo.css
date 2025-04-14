@@ -1,0 +1,50 @@
+@media (max-width: 830px){
+    body{
+        background: url(../images/bg-mobile.svg) center center no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: 100% auto;
+        background-position: top;
+    }
+
+    .header .logo{
+        width: 250px;
+        margin-bottom: 30px;
+    }
+
+    .conteudo{
+        flex-direction: column;
+    }
+
+    .conteudo .infos{
+        width: 100%;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .conteudo .infos h1{
+        font-size: 25px;
+    }
+
+    .conteudo .infos .btn-register{
+        font-size: 13px;
+        padding: 12px 70px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer .social a {
+        margin: 3px
+    }
+
+    .footer .social a i {
+        font-size: 15px;
+    }
+
+    .footer .social{
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+}
